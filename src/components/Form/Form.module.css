@@ -1,0 +1,50 @@
+.container {
+    background-color: rgba(44, 44, 44, 0.747);
+    width: 250px;
+    height: auto;
+    margin-top: 60px;
+    border-radius: 8px;
+}
+.mainbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+.label {
+    color: aliceblue;
+    font-family: cursive;
+    margin-top: 10px;
+}
+.button {
+    background-color: rgba(6, 194, 131, 0.705);
+    font-family: cursive;
+    margin-top: 10px;
+    padding: 5px 6px 5px 6px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.button:hover {
+    background-color: rgba(127, 255, 212, 0.932);
+}
+.img {
+    width: 200px;
+    border-radius: 100%;
+    margin-top: 10px;
+}
+.errors {
+    color: red;
+}
+.warning {
+    border: solid red 1px;
+    border-radius: 0.2em;
+}

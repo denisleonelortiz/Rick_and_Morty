@@ -1,0 +1,33 @@
+.nav {
+    margin-top: 20px;
+    display: flex;
+}
+.search {
+    width: 60%;
+    display: flex;
+    justify-content: flex-end;
+}
+.options {
+    width: 35%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.options button {
+    margin-right: 15px;
+    font-family: cursive;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+.options button:hover {
+    color: aquamarine;
+    border-color: aquamarine;
+}
+.active button{
+    color: aquamarine;
+    border-color: aquamarine;
+}
