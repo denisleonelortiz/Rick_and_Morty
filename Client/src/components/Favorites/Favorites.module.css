@@ -1,0 +1,17 @@
+.containerCards {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.selectors  {
+    margin-top: 10px;
+}
+.selectors select {
+    padding: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: cursive;
+    font-weight: bold;
+    border-radius: 8px;
+}
